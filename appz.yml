@@ -44,7 +44,7 @@ properties:
   MYSQL_USER : "hybcloud"
   ENABLE_HA : "no"
   MYSQL_PASSWORD:
-     vault: 4pEY7InOqU8Uh5TmuU2R
+     vault: MYSQL_PASSWORD
   SITE_URL : "https://www.ecloudcontrol.com"
   SITE_TITLE : "CLOUDCONTROL"
   ADMIN_USER : webmaster
