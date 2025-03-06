@@ -1,16 +1,26 @@
 ---
 theme:
   - name: Avada
-    url: https://www.ecloudcontrol.com/wp-content/uploads/2023/06/Avada.zip
+    url: https://www.ecloudcontrol.com/wp-content/uploads/2025/02/Avada-7.9.14.zip
   - name: Avada-Child-Theme
-    url: https://www.ecloudcontrol.com/wp-content/uploads/2023/06/Avada-Child-Theme.zip
+    url: https://www.ecloudcontrol.com/wp-content/uploads/2025/02/Avada-Child-Theme-7.9.14.zip
+
 plugins:
-   - https://www.ecloudcontrol.com/wp-content/uploads/2023/07/fusion-core-5.11.0.zip
-   - https://www.ecloudcontrol.com/wp-content/uploads/2023/07/fusion-builder-3.11.0.zip
-   - https://www.ecloudcontrol.com/wp-content/uploads/2023/09/revslider-6.6.16.zip
-   - https://www.ecloudcontrol.com/wp-content/uploads/2023/09/wordpress-seo-premium-21.1.zip
-   - https://downloads.wordpress.org/plugin/contact-form-7.5.8.zip
-   - https://downloads.wordpress.org/plugin/query-monitor.3.14.1.zip
-   - https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.2.1.1.zip
-   - https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.5.30.6.zip
-   - https://downloads.wordpress.org/plugin/wp-mail-smtp.3.9.0.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/07/fusion-core-5.11.9.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/07/fusion-builder-3.11.9.zip
+   - https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.2.1.2.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/07/revslider-6.7.14.zip
+   - https://downloads.wordpress.org/plugin/contact-form-7.6.0.3.zip
+   - https://downloads.wordpress.org/plugin/iubenda-cookie-law-solution.3.12.0.zip
+   - https://downloads.wordpress.org/plugin/wp-mail-smtp.4.3.0.zip
+   - https://downloads.wordpress.org/plugin/wordpress-seo.24.5.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/07/qr-code-generator.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/10/acf-extended.zip
+   - https://www.ecloudcontrol.com/wp-content/uploads/2024/10/wpforms-lite.zip
+   - https://downloads.wordpress.org/plugin/wordfence.8.0.3.zip
+   - https://downloads.wordpress.org/plugin/google-site-kit.1.145.0.zip
+   - https://downloads.wordpress.org/plugin/microsoft-clarity.0.10.3.zip
+   - https://downloads.wordpress.org/plugin/chaty.3.3.5.zip
+   - https://www.lowtouch.ai/wp-content/uploads/2025/02/wordpress-seo-premium-24.4.zip
+   - https://www.lowtouch.ai/wp-content/uploads/2025/02/chaty-pro-3.3.4.zip
+   - https://downloads.wordpress.org/plugin/advanced-google-recaptcha.1.29.zip
