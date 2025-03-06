@@ -1,52 +1,44 @@
 app:
-  name: eCloudControl.com
+  name: v4.eCloudControl.com
   code: ECSWEB
   notify: mmehrotra@ecloudcontrol.com
 
 build:
-  version: 3.0
+  version: 6.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: wordpress-6.2
-  image_name: myco/website
+  image_template: wordpress-6.7
 
 deploy:
-  context: medhavi20/DEV
+  context: anandp0/DEV
   type: statefulset
+  #ingress: none
   replicas: 1
-  resources: xx-large
+  resources: x-large
   port:
   - 443
 
 volumes:
-  - claim: wp-uploads
+  - claim: wp-content
     mount: /var/www/html/wp-content/uploads
-    name: uploads
+    name: wp-content
     size: 250Gi
-    mode: ReadWriteOnce
-    class: standard
-    matchLabels: false
   - claim: wp-backup
     mount: /appz/backup
     name: backup
-    size: 250Gi
-    mode: ReadWriteOnce
-    class: standard
-    matchLabels: false
-
-monitor:
-  notify: mmehrotra@ecloudcontrol.com      
+    size: 250Gi   
 
 properties:
   MYSQL_HOST : "mysql-5-7:3306"
   MYSQL_DATABASE : "hybcloud"
   MYSQL_USER : "hybcloud"
   ENABLE_HA : "no"
+  WP_BACKUP_VERBOSE : 0
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD
-  SITE_URL : "https://www.ecloudcontrol.com"
-  SITE_TITLE : "CLOUDCONTROL"
+  SITE_URL : "https://dev-website-6-0.lowtouchcloud.io"
+  SITE_TITLE : "Lowtouchtest.Ai"
   ADMIN_USER : webmaster
   ADMIN_EMAIL : webmaster@ecloudcontrol.com
   ADMIN_PASSWORD:
@@ -55,5 +47,4 @@ properties:
      vault: SITE_PRIVATE_KEY
   SITE_CERT: 
      vault: SITE_CERT
-  revision : 51
-       
+  revision : 105
